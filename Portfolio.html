@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, ;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 5px solid ;
+            object-fit: cover;
+        }
+
+        .section {
+            background: white;
+            padding: 40px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #2c3e50;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact a {
+            color: #2c3e50;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 40px 0;
+            }
+
+            .profile-img {
+                width: 150px;
+                height: 150px;
+            }
+
+            .section {
+                padding: 20px;
+            }
+        }
+        .Dashboard{
+            margin-right: 45px;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="firstcontainer" style="display: flex; justify-content:space-around; background-color: rgb(33, 37, 41); flex-direction: column; padding-left: 43%;">
+        <div style="color:gray ; display: flex; justify-content: flex-end;">
+            <a class="Dashboard ">Home</a>
+                <a class="Dashboard"  >About me</a>
+                <a class="Dashboard">Skills</a>
+                <a class="Dashboard">Contact</a>
+            
+        </div>
+    
+        <img src= "profile.jpeg" alt="Profile Photo" class="profile-img">
+ 
+        <h1 style="color: white;">Bharat Kumar</h1>
+
+        <p></p>
+    </div>
+
+    <div class="container" >
+        <section class="section">
+            <h2>About Me</h2>
+            <p>Hello! I’m Bharat Kumar, a passionate second-year B.Tech student specializing in Computer Science. I have a strong interest in coding and web development, focusing on HTML, CSS, and JavaScript. My goal is to create engaging, user-friendly web experiences that combine functionality with aesthetic appeal.
+
+                As I continue to learn and grow in this field, I’m excited to take on new challenges and develop innovative solutions. Feel free to explore my projects and reach out if you’d like to connect!</p>
+        </section>
+
+        <section class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">C/C++</span>
+             
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h1>Vs code landing page </h1>
+                    <a href="" target="_blank"> Link:Project</a>
+
+
+                    </div>
+
+            </div>
+        </section>
+
+        <section class="section contact">
+            <h2>Contact Me</h2>
+            <p>Email: k.bharatkumar815@gmail.com</p>
+            <div>
+                <a href="https://www.linkedin.com/in/bharat-kumar-009756239/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Bharat0304" target="_blank">GitHub</a>
+                <a href="https://x.com/i/flow/login?redirect_after_login=%2FBharatK0304" target="_blank">Twitter</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
